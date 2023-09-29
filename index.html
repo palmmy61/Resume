@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="favicon.ico">
+    
+</head>
+<body>
+    <div class = "header">
+        <nav>
+            <a href="file:///C:/Users/Monkey/Desktop/web%20development%202023/hw%20solo/index.html"><img src="pari.png" class="Logo"></a>
+            <ul class="nav-links">
+                <li><a href=#aboutme>Home</a></li>
+                <li><a href="#Education-header">Education</a></li>
+                <li><a href="#skill">Skill & Employment History</a></li>
+                <li><a href="#Q&A">Q&A</a></li>
+                <li class="contact">contact me</li>
+            </ul>
+        </nav>
+    </div>
+
+<div class="content">
+    <h2 class="Aboutme" id="aboutme">About Me</h2>
+        <h2 class="“">“</h2>
+            <pre class="porme">                     I'm MII, a Computer and Artificial Intelligence Engineer from ET. My world revolves around coding and art, where logic meets creativity. Join me on a journey through 
+                the ever-evolving tech landscape, where lines of code and strokes of art merge to create something extraordinary. Let's explore the endless possibilities together!</pre>
+       
+        <br>
+        <br>
+
+        <p>:</p>
+        
+        <div class="slideshow-container">
+        
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="img_lights_wide.png" style="width:100%">
+    
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="img_mountains_wide.png" style="width:100%">
+          
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="img_nature_wide.png" style="width:100%">
+          
+        </div>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>  
+
+        <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+            
+</div>
+
+
+
+ <div class="Education-header" id="Education-header">
+    <h1 class="Educationh1">Education</h1>
+
+    <hr>
+
+    <div class="PIM">
+      <a href="http://www.skn.ac.th/skn/" target="_blank"><img class="PIMPIC" src="sknlogo.png" alt="My uni">
+  </div>
+   
+  <h3 class="namePIM">suankularb wittayalai nonthaburi school</h3></a>
+
+        <div class="PIM">
+            <a href="https://www.pim.ac.th" target="_blank"><img class="PIMPIC" src="Logo_PIM.png" alt="My uni">
+        </div>
+         
+        <h3 class="namePIM">panyapiwat institute of management</h3></a>
+
+ </div>
+
+
+
+
+ <div class="skill"  id="skill">
+  <h1 class="skillh1">Skill <br>& Employment History</h1>
+ </div>
+
+ <hr>
+<table>
+  <tr>
+    <td>
+ <div class="container">
+  <div class="skill">
+      <h3>English</h3>
+      <h4>95%</h4>
+      <span class="skill-bar"></span>
+      <span class="fill-bar html"></span>
+  </div>
+  <div class="skill">
+      <h3>JavaOOp</h3>
+      <h4>85%</h4>
+      <span class="skill-bar"></span>
+      <span class="fill-bar css"></span>
+  </div>
+  <div class="skill">
+      <h3>Html</h3>
+      <h4>70%</h4>
+      <span class="skill-bar"></span>
+      <span class="fill-bar javascript"></span>
+  </div>
+  <div class="skill">
+      <h3>Math</h3>
+      <h4>85%</h4>
+      <span class="skill-bar"></span>
+      <span class="fill-bar php"></span>
+  </div>
+</div>
+</td>
+<td><div class="Employ">
+  <table>
+    <thead>
+        <tr>
+            <th>Year</th>
+            <th>work place</th>
+        </tr>
+    </thead>   
+    <tr>
+        <td>2022-2023</td>
+        <td>Intership at 7-11</td>
+    </tr>
+    <tr>
+        <td>2023</td>
+        <td>ARAM9 Data Collector</td>
+    </tr>
+    <tr>
+        <td>2024-2030</td>
+        <td>JapanIntership</td>
+    </tr>
+
+</table> 
+</td>
+<td>
+    <img src="decolay.png">
+</td>
+</tr>
+
+</table>
+
+
+
+</div>
+    <div id="contact-me">
+        <center>
+        <img class="pp" src="profile.jpg">
+        <br>
+        <h3>Parichart Lamontien</h3>
+        <h4><pre>MII  Year 2</pre></h4>
+        <h4>Faculty of engineering and technology</h4>
+        <h4>Mayjor Computer and Artificial Intelligent(CAI)</h4>
+          <br>
+        <ol>
+          <li><img class="email" src="email.png"></li>
+          <li>Tel.555-5555-666</li>
+          <li>Location : sesame street 6954,candykingdom.</li>
+        </ol>
+    </center>
+    
+      <img class="iconschool" src="iconshcool.png">
+      <img class="iconwork" src="workplace.png">
+    </div>
+
+    <h1 class="skillh1">Q&A</h1>
+    <hr>
+
+    <div class="container" id="Q&A">
+      <link rel="stylesheet" href="styless.CSS">
+      <form action="action_page.php">
+    
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+         <br> 
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <br>
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="thai">Thai</option>
+          <option value="japan">Japan</option>
+          <option value="other">Other</option>
+        </select>
+        <br>
+    
+        <label for="subject">Q&A</label>
+        <br>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+      <input type="submit" value="Submit">
+    
+      </form>
+    </div>
+</body>
+</html>
